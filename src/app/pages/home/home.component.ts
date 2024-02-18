@@ -3,7 +3,7 @@ import { BookService } from '../../services/book.service';
 import { Book } from '../../models/book.model';
 
 import { take } from 'rxjs/operators';
-import { NgFor, UpperCasePipe } from '@angular/common';
+import { UpperCasePipe } from '@angular/common';
 
 
 @Component({
@@ -11,7 +11,7 @@ import { NgFor, UpperCasePipe } from '@angular/common';
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.scss'],
     standalone: true,
-    imports: [NgFor, UpperCasePipe]
+    imports: [UpperCasePipe]
 })
 export class HomeComponent implements OnInit {
 
