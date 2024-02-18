@@ -8,7 +8,7 @@ import { environment } from '../../environments/environment.prod';
 import swal from 'sweetalert2';
 
 
-@Injectable()
+@Injectable({providedIn: "root"})
 export class BookService {
 
   constructor(
