@@ -1,0 +1,49 @@
+{
+  "name": "book-list-app",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "test-coverage": "ng test --code-coverage",
+    "tbuild": "ng test --no-watch && ng build",
+    "lint": "ng lint",
+    "mock": "json-server db.json"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^15.1.5",
+    "@angular/common": "^15.1.5",
+    "@angular/compiler": "^15.1.5",
+    "@angular/core": "^15.1.5",
+    "@angular/forms": "^15.1.5",
+    "@angular/platform-browser": "^15.1.5",
+    "@angular/platform-browser-dynamic": "^15.1.5",
+    "@angular/router": "^15.1.5",
+    "rxjs": "~6.5.4",
+    "sweetalert2": "^11.7.2",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.1.6",
+    "@angular/cli": "^15.1.6",
+    "@angular/compiler-cli": "^15.1.5",
+    "@types/jasmine": "~3.6.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^6.0.0",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "json-server": "^0.17.0",
+    "karma": "^6.3.16",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.8.4"
+  }
+}
