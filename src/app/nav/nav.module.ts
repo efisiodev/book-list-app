@@ -10,17 +10,15 @@ import { RouterModule } from '@angular/router';
 
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    CommonModule,
-    RouterModule
-  ],
-  declarations: [
-    NavComponent,
-  ],
-  exports: [
-    NavComponent,
-  ]
+    imports: [
+        BrowserModule,
+        CommonModule,
+        RouterModule,
+        NavComponent
+    ],
+    exports: [
+        NavComponent,
+    ]
 })
 export class NavModule { }
 

@@ -13,21 +13,19 @@ import { ReduceTextPipe } from '../pipes/reduce-text/reduce-text.pipe';
 
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    CommonModule,
-    NavModule,
-    PagesRoutingModule,
-  ],
-  declarations: [
-    PagesComponent,
-    HomeComponent,
-    CartComponent,
-    ReduceTextPipe,
-  ],
-  exports: [
-    PagesComponent,
-  ]
+    imports: [
+        BrowserModule,
+        CommonModule,
+        NavModule,
+        PagesRoutingModule,
+        PagesComponent,
+        HomeComponent,
+        CartComponent,
+        ReduceTextPipe,
+    ],
+    exports: [
+        PagesComponent,
+    ]
 })
 export class PagesModule { }
 

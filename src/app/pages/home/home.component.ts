@@ -3,12 +3,15 @@ import { BookService } from '../../services/book.service';
 import { Book } from '../../models/book.model';
 
 import { take } from 'rxjs/operators';
+import { NgFor, UpperCasePipe } from '@angular/common';
 
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+    selector: 'app-home',
+    templateUrl: './home.component.html',
+    styleUrls: ['./home.component.scss'],
+    standalone: true,
+    imports: [NgFor, UpperCasePipe]
 })
 export class HomeComponent implements OnInit {
 
